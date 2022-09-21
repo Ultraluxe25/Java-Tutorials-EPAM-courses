@@ -1,1 +1,1 @@
-# Java-Tutorials-EPAM-courses-
+# Java Tutorials (EPAM courses)

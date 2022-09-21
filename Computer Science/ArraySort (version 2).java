@@ -10,7 +10,6 @@ public class ArraySort {
 
     static int maxNumber(int[] array) {
         int biggest = -1_000_000;
-
         for (int i = 0; i < array.length; i++) {
             if (array[i] > biggest) {
                 biggest = array[i];
@@ -29,4 +28,5 @@ public class ArraySort {
         }
         return smallest;
     }
+    
 }

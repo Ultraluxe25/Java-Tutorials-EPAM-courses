@@ -25,13 +25,9 @@ public class BinarySearch {
             int middle = (first + last) / 2;
             if (array[middle] == number) {
                 return middle;
-            }
-
-            if (array[middle] > number) {
+            } else if (array[middle] > number) {
                 last = middle - 1;
-            }
-
-            if (array[middle] < number) {
+            } else {  // (array[middle] < number) {
                 first = middle + 1;
             }
         }
